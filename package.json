@@ -1,0 +1,26 @@
+{
+  "name": "backend_paymoon",
+  "version": "1.0.0",
+  "description": "api-rest de paymoon, hace posible que el desarrollo actual sea escalable en un futuro sin importar el lenguaje de programacion utilizado en el cliente, contiene las peticiones primordiales e inclusive muchas mas de interes, todo se describira en los comentarios que se abjuntara para los siguientes desarrolladores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "paymoon",
+    "crud",
+    "http",
+    "transacciones",
+    "mongodb"
+  ],
+  "author": "Jorge Luis Ospino Pastrana - Correo: jlospino@uniguajira.edu.co",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.5",
+    "mongoose-autopopulate": "^0.16.0",
+    "routes": "^2.1.0"
+  }
+}
